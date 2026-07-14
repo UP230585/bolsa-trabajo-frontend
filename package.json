@@ -18,9 +18,9 @@
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/UP230585/bolsa-trabajo-backend/issues"
+    "url": "https://github.com/UP230585/bolsa-trabajo-frontend/issues"
   },
-  "homepage": "https://github.com/UP230585/bolsa-trabajo-backend#readme",
+  "homepage": "https://github.com/UP230585/bolsa-trabajo-frontend#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.63.0",
     "@typescript-eslint/parser": "^8.63.0",
