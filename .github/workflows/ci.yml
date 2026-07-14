@@ -2,9 +2,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, develop, qa ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ main, develop, qa ]
 
 jobs:
   build:
@@ -16,13 +16,12 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18.x'
+        node-version: '20.x'
         
     - name: Install Dependencies
-      run: npm install
+      run: npm ci --ignore-scripts
       
     - name: Run Code Check
       run: |
         echo "Validando sintaxis y estructura del código..."
-        # Aquí se ejecutarán los linters o pruebas en el futuro. Por ahora simula éxito.
-        exit 0
+        npm run lint
