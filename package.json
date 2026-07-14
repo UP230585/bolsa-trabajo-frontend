@@ -1,17 +1,17 @@
 {
-  "name": "bolsa-trabajo-backend",
+  "name": "bolsa-trabajo-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UP230585/bolsa-trabajo-backend.git"
+    "url": "git+https://github.com/UP230585/bolsa-trabajo-frontend.git"
   },
   "keywords": [],
   "author": "",
